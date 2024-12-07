@@ -1,8 +1,8 @@
 import re
 import sys
-from urllib.request import urlopen
 from importlib.abc import PathEntryFinder
 from importlib.util import spec_from_loader
+from urllib.request import urlopen
 import requests
 
 class URLFinder(PathEntryFinder):
